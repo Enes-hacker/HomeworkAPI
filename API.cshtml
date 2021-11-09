@@ -1,0 +1,21 @@
+﻿
+<h2>API of something</h2>
+
+@{
+    ViewBag.Title = "API";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+            {
+    <p>
+    Nummer oder name von etwas: @Html.TextBox("text")
+    <input type=" submit" value="Check" />
+
+
+</p>
+            }
+
+
+@ViewData["body"]
+
